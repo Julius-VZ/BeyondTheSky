@@ -1,0 +1,163 @@
+
+body{
+    overflow-x: hidden;
+}
+
+@media (max-width: 992px){
+
+    .logo-box{
+        height: auto;
+        padding: 10px 0;
+    }
+
+    .logo-text{
+        margin-left: 30px;   
+        text-align: left;
+    }
+
+    .logo-text h1{
+        font-size: 2.6em;
+    }
+
+    .logo-text h2{
+        font-size: 1.3em;
+    }
+
+    main .intro{
+        margin: 20px 30px auto;   
+        max-width: 100%;
+    }
+
+    footer{
+        justify-content: center;
+        text-align: center;
+    }
+}
+
+@media (max-width: 768px){
+
+    .logo-box{
+        flex-direction: column;
+        text-align: center;
+        gap: 10px;
+        height: auto;
+        margin: 5px 0;
+    }
+
+    .logo-img img{
+        width: 70px;
+        height: 70px;
+    }
+
+    .logo-text{
+        margin-left: 0;         
+        text-align: center;
+    }
+
+    .logo-text h1{
+        font-size: 2em;
+        margin-bottom: 8px;
+    }
+
+    .logo-text h2{
+        font-size: 1.1em;
+    }
+
+    main{
+        padding: 20px 12px 40px;
+    }
+
+    main .intro{
+        margin: 16px auto;
+        gap: 20px;
+    }
+
+    .section-intro{
+        padding: 12px;
+    }
+
+    .section-intro h2{
+        font-size: 1.5em;
+    }
+
+    .section-intro p{
+        font-size: 0.95em;
+        line-height: 1.5;
+    }
+
+    /* Hamburger button and open menu: comfortable tap size */
+    .menu-btn{
+        width: 48px;
+        height: 44px;
+        line-height: 40px;
+    }
+
+    #menu-toggle:checked ~ nav{
+        max-width: 60%;
+    }
+
+    nav a{
+        font-size: 1.2em;
+        padding: 10px 14px;
+        display: block;
+    }
+
+    footer{
+        flex-direction: column;
+        text-align: center;
+        padding: 20px;
+    }
+
+    .footer-links{
+        gap: 15px;
+    }
+
+    #scrollTopBtn{
+        right: 20px;
+        bottom: 20px;
+        width: 44px;
+        height: 44px;
+        font-size: 1.3em;
+    }
+}
+
+@media (max-width: 576px){
+
+    .logo-text h1{
+        font-size: 1.6em;
+    }
+
+    .logo-text h2{
+        font-size: 0.95em;
+    }
+
+    .section-intro h2{
+        font-size: 1.25em;
+    }
+
+    .section-intro .subtitle{
+        font-size: 0.75rem;
+    }
+
+    #menu-toggle:checked ~ nav{
+        max-width: 80%;
+        left: 8px;
+        top: 60px;
+    }
+
+    nav a{
+        font-size: 1.05em;
+        padding: 8px 12px;
+    }
+
+    footer a{
+        font-size: 1em;
+    }
+}
+
+@media (prefers-reduced-motion: reduce){
+    *{
+        transition: none !important;
+        scroll-behavior: auto !important;
+    }
+}

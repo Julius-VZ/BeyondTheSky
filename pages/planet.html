@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Planet</title>
+    <link rel="icon" href="../assets/icons/rocket-icon.ico" type="image/icon">
+    <link rel="stylesheet" href="../assets/css/first-style.css">
+    <link rel="stylesheet" href="../assets/css/main-content.css">
+</head>
+<body>
+    <header>
+        <input type="checkbox" id="menu-toggle">
+        <label for="menu-toggle" class="menu-btn">☰</label>
+        <nav>
+            <ul>
+                <li><a href="../home.html">Home</a></li>
+                <li><a href="star.html">Star</a></li>
+                <li><a href="galaxy.html">Galaxy</a></li>
+                <li><a href="mission.html">Mission</a></li>       
+                <li><a href="nebula.html">Nebula</a></li>
+                <li><a href="black-hole.html">Black Hole</a></li>
+                <li><a href="agn.html">AGN</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <table class="main-content">
+            <tr>
+                <td>
+                    <svg viewBox="0 0 1376 768" xmlns="http://www.w3.org/2000/svg">
+                        <image href="../assets/images/all-planet.png" x="0" y="0" width="1376" height="768"/>
+
+                        <!-- Earth -->
+                        <a href="#earth-row">
+                            <circle class="region" cx="169" cy="195" r="121" fill="transparent">
+                                <title>Earth</title>
+                            </circle>
+                        </a>
+
+                        <!-- Kepler-186f -->
+                        <a href="#kepler-row">
+                            <circle class="region" cx="311" cy="394" r="112" fill="transparent">
+                                <title>Kepler-186f</title>
+                            </circle>
+                        </a>
+
+                        <!-- Jupiter -->
+                        <a href="#jupiter-row">
+                            <circle class="region" cx="641" cy="382" r="152" fill="transparent">
+                                <title>Jupiter</title>
+                            </circle>
+                        </a>
+
+                        <!-- Pluto -->
+                        <a href="#pluto-row">
+                            <circle class="region" cx="912" cy="418" r="139" fill="transparent">
+                                <title>Pluto</title>
+                            </circle>
+                        </a>
+
+                        <!-- Saturn (radius widened to include rings) -->
+                        <a href="#saturn-row">
+                            <circle class="region" cx="1178" cy="381" r="165" fill="transparent">
+                                <title>Saturn</title>
+                            </circle>
+                        </a>
+
+                        <!-- Mars -->
+                        <a href="#mars-row">
+                            <circle class="region" cx="1225" cy="601" r="81" fill="transparent">
+                                <title>Mars</title>
+                            </circle>
+                        </a>
+                    </svg>
+                </td>
+            </tr>
+            <tr class="content-row" id="earth-row">
+                <td class="image-cell">
+                    <a href="">
+                        <img src="../assets/images/earth.jpg" alt="Earth">
+                    </a>
+                    <button class="btn btn-details">Details</button>
+                    <div class="move-button">
+                        <button class="btn btn-back">Back</button>
+                        <button class="btn btn-next">Next</button>
+                    </div>
+                    <div class="details-panel hidden">
+                        <h2>
+                            Earth
+                        </h2>
+                        <p>
+                            Viewed from space, the most striking feature of our planet is the water.
+                            In both liquid and frozen form, it covers 75% of the Earth's surface.
+                            It fills the sky with clouds. Water is practically everywhere on Earth,
+                            from inside the rocky crust to inside our cells.
+                            This detailed, photo-like view of Earth is based largely on observations 
+                            from the Moderate Resolution Imaging Spectroradiometer (MODIS) on NASA's Terra satellite. 
+                            It is one of many images of our watery world featured in a new story examining water in all of its forms 
+                            and functions
+                        </p>
+                    </div>
+                </td>
+            </tr>
+            <tr class="content-row" id="kepler-row">
+                <td class="image-cell">
+                    <a href="../assets/images/kepler-186f.jpg">
+                        <img src="../assets/images/kepler-186f.jpg" alt="kepler-186f">
+                    </a>
+                    <button class="btn btn-details">Details</button>
+                    <div class="move-button">
+                        <button class="btn btn-back">Back</button>
+                        <button class="btn btn-next">Next</button>
+                    </div>
+                    <div class="details-panel hidden">
+                        <h2>
+                            kepler-186f
+                        </h2>
+                        <p>
+                            This artist's concept depicts Kepler-186f, the first validated Earth-size planet to orbit a distant star 
+                            in the habitable zone a range of distance from a star where liquid water might pool on the planet's surface.
+                            The discovery of Kepler-186f confirms that Earth-size planets exist in the habitable zones of other stars 
+                            and signals a significant step closer to finding a world similar to Earth.
+                            The size of Kepler-186f is known to be less than ten percent larger than Earth,
+                            but its mass, composition and density are not known. 
+                            Previous research suggests that a planet the size of Kepler-186f is likely to be rocky.
+                        </p>
+                    </div>
+                </td>
+            </tr>
+            <tr class="content-row" id="mars-row">
+                <td class="image-cell">
+                    <a href="../assets/images/mars.jpg">
+                        <img src="../assets/images/mars.jpg" alt="mars">
+                    </a>
+                    <button class="btn btn-details">Details</button>
+                    <div class="move-button">
+                        <button class="btn btn-back">Back</button>
+                        <button class="btn btn-next">Next</button>
+                    </div>
+                    <div class="details-panel hidden">
+                        <h2>
+                            Mars
+                        </h2>
+                        <p>
+                            Mars is one of the most explored bodies in our solar system,
+                            and it's the only planet where we've sent rovers to roam the alien landscape. 
+                            NASA missions have found lots of evidence that Mars was much wetter and warmer,
+                            with a thicker atmosphere, billions of years ago.
+                            Mars was named by the ancient Romans for their god of war because its reddish color was reminiscent of blood.
+                            Other civilizations also named the planet for this attribute —for example,
+                            the Egyptians called it "Her Desher," meaning "the red one." Even today, 
+                            it is frequently called the "Red Planet" because iron minerals in the Martian dirt oxidize, 
+                            or rust, causing the surface to look red.
+                        </p>
+                    </div>
+                </td>
+            </tr>
+            <tr class="content-row" id="jupiter-row" >
+                <td class="image-cell">
+                    <a href="../assets/images/jupiter.jpg">
+                        <img src="../assets/images/jupiter.jpg" alt="jupiter">
+                    </a>
+                    <button class="btn btn-details">Details</button>
+                    <div class="move-button">
+                        <button class="btn btn-back">Back</button>
+                        <button class="btn btn-next">Next</button>
+                    </div>
+                    <div class="details-panel hidden">
+                        <h2>
+                            Jupiter
+                        </h2>
+                        <p>
+                            Jupiter's signature stripes and swirls are actually cold, windy clouds of ammonia and water,
+                            floating in an atmosphere of hydrogen and helium.
+                            The dark orange stripes are called belts, while the lighter bands are called zones, 
+                            and they flow east and west in opposite directions. 
+                            Jupiter's iconic Great Red Spot is a giant storm bigger than Earth that has raged for hundreds of years.
+                            The king of planets was named for Jupiter, king of the gods in Roman mythology.
+                            Most of its moons are also named for mythological characters, 
+                            figures associated with Jupiter or his Greek counterpart, Zeus.
+                        </p>
+                    </div>
+                </td>
+            </tr>
+            <tr class="content-row" id="pluto-row">
+                <td class="image-cell">
+                    <a href="../assets/images/pluto.jpg">
+                        <img src="../assets/images/pluto.jpg" alt="pluto">
+                    </a>
+                    <button class="btn btn-details">Details</button>
+                    <div class="move-button">
+                        <button class="btn btn-back">Back</button>
+                        <button class="btn btn-next">Next</button>
+                    </div>
+                    <div class="details-panel hidden">
+                        <h2>
+                            Pluto
+                        </h2>
+                        <p>
+                            Pluto is a complex and mysterious world with mountains, valleys, plains, craters, and glaciers.
+                            It is located in the distant Kuiper Belt.
+                            Discovered in 1930, Pluto was long considered our solar system's ninth planet. 
+                            But after the discovery of similar worlds deeper in the Kuiper Belt, 
+                            Pluto was reclassified as a dwarf planet in 2006 by the International Astronomical Union.
+                            According to the 2006 IAU Resolution, "a dwarf planet is an object in orbit around the Sun that is large enough to pull itself 
+                            into a nearly round shape but has not been able to clear its orbit of debris.
+                            The IAU stated that Pluto falls into the dwarf planet category because it is located in a part of our solar system known as 
+                            the Trans-Neptunian region (beyond Neptune) where other objects might cross Pluto's orbital path
+                        </p>
+                    </div>
+                </td>
+            </tr>
+            <tr class="content-row" id="saturn-row">
+                <td class="image-cell">
+                    <a href="../assets/images/saturn.jpg">
+                        <img src="../assets/images/saturn.jpg" alt="Saturn">
+                    </a>
+                    <button class="btn btn-details">Details</button>
+                    <div class="move-button">
+                        <button class="btn btn-back">Back</button>
+                        <button class="btn btn-next">Next</button>
+                    </div>
+                    <div class="details-panel hidden">
+                        <h2>
+                            Saturn
+                        </h2>
+                        <p>
+                            Like fellow gas giant Jupiter, Saturn is a massive ball made mostly of hydrogen and helium. 
+                            Saturn is not the only planet to have rings, but none are as spectacular or as complex as Saturn's. 
+                            Saturn also has dozens of moons.
+                            From the jets of water that spray from Saturn's moon Enceladus to the methane lakes on smoggy Titan, 
+                            the Saturn system is a rich source of scientific discovery and still holds many mysteries.
+                            Saturn's environment is not conducive to life as we know it. The temperatures, pressures, 
+                            and materials that characterize this planet are most likely too extreme and volatile for organisms to adapt to.
+                            While planet Saturn is an unlikely place for living things to take hold, 
+                            the same is not true of some of its many moons. Satellites like Enceladus and Titan, 
+                            home to internal oceans, could possibly support life.
+                        </p>
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </main>
+    <footer>
+        <div class="footer-content">
+            <p class="footer-brand">Beyond the Sky</p>
+            <div class="footer-links">
+                <a href="about.html">About us</a>
+                <a href="reference.html">Reference</a>
+            </div>
+        </div>
+    </footer>
+    <button id="scrollTopBtn" aria-label="Back to top">↑</button>
+    <script src="../assets/js/topbtn.js"></script>
+    <script src="../assets/js/content-btn.js"></script>
+</body>
+</html>
